@@ -1,0 +1,251 @@
+﻿.ui-collapsible p {white-space:normal;}
+/* 	this is for the drugs 	*/
+
+.measure
+{
+	float: left;
+	padding-top: 8px;
+}
+
+.small
+{
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.errMsg
+{
+	background-color: #FFC;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #FC3;
+}
+
+th
+{
+	text-align: left;
+}
+
+P
+{
+	margin: 0PX;
+	margin-bottom: 0.5em;
+}
+
+P:last-child
+{
+	margin: 0PX;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.noshadow
+{
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.info
+{
+	background-color: #FFC;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #FC3;
+}
+
+input.calcVarUnit
+{
+	width: 70px !important;
+}
+
+input.calc
+{
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+input.small
+{
+	width: 30px !important;
+}
+
+input[readonly]
+{
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+input[disabled], label[disabled]
+{
+	color: #cccccc;
+}
+
+li:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+label
+{
+	/* 	float: left; 	width: 80px; 	*/
+	padding-top: 5px;
+}
+
+table
+{
+	border-spacing: 0px;
+	width: 100%;
+}
+table td
+{
+	padding: 2px 5px;
+}
+/* I removed the alternating table row background...
+table tr:nth-child(even)
+{
+	background-color: #fff;
+}*/
+
+section.total
+{
+	background-color: #cccccc !important;
+}
+
+
+tr.total
+{
+	background-color: #cccccc !important;
+}
+
+tr.total.noBorder td
+{
+	border-top: none;
+	border-bottom: none;
+}
+
+tr.errMsg td
+{
+	padding: 0px;
+	background-color: transparent !important;
+}
+
+tr.total td label
+{
+	font-weight: bold !important;
+}
+
+tr.total td
+{
+	border-top: solid 2px #666666;
+	border-bottom: solid 2px #666666;
+}
+
+tr.checkboxdisplay, tr.radiodisplay
+{
+	height: 40px;
+}
+
+row:after
+{
+	clear: both;
+}
+
+.total
+{
+	border-top: solid 2px #666666;
+	border-bottom: solid 2px #666666;
+	background-color: #cccccc;
+}
+
+.totalBox
+{
+	border-top: solid 2px #666666;
+	border-bottom: solid 2px #666666;
+	background-color: #cccccc;
+}
+
+div.total label
+{
+	font-weight: bold;
+}
+
+div.total input
+{
+	font-weight: bold;
+	background-color: #FFC;
+}
+
+
+
+
+div.input
+{
+	
+	/* 		padding-left: 5px; 	line-height: 40px; 	height: 40px;	*/
+}
+
+.floatLeft
+{
+	float: left;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button
+{
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.Sex .iPhoneCheckContainer
+{
+	width: 163px;
+}
+.Sex .iPhoneCheckHandle
+{
+	width: 20px;
+}
+
+.YesNo .iPhoneCheckContainer
+{
+	width: 95px;
+}
+.YesNo .iPhoneCheckHandle
+{
+	width: 44px;
+}
+
+.mft .iPhoneCheckContainer
+{
+	width: 59px;
+}
+.mft .iPhoneCheckHandle
+{
+	width: 22px;
+}
+
+.kpammhg .iPhoneCheckContainer
+{
+	width: 131px;
+}
+.kpammhg .iPhoneCheckHandle
+{
+	width: 32px;
+}
