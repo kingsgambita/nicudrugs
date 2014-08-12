@@ -1,0 +1,46 @@
+﻿label.error{
+	color: red;
+	font-weight: bold;
+	vertical-align: top;
+	float:center;
+	padding-left:.5em;
+	white-space:nowrap;
+}
+
+
+.warning{
+	color:red !important;
+}
+/* the above seems to cause resize bug with stability report - need to test in IE*/
+
+
+
+div.errorProne{
+	height: 70px;
+}
+#nhiTwo{text-transform:uppercase}
+#nhi-rep{text-transform:uppercase}
+
+
+.noScreenorPrint{
+	display:none;
+}
+.noScreen{
+	display:none;
+}
+.ui-state-disabled {
+	zoom: 1;
+	display: inline-block;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+}
+/* IE8 problems with opacity*/
+
+/*.ui-block-c .ui-input-text{
+    width: 180px !important;
+	
+}*/
+/* set weight input width - but breaks error message layouts*/
+

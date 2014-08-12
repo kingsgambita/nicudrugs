@@ -1,12 +1,17 @@
 CACHE MANIFEST
-# version 1.14
+# version 1.19
 
 
 CACHE:
 drugs.html
 
+
 #my app files, relative to the html document
+gentmobile.html
 css/customDrugs.css
+css/infusion.css
+js/gentamicin.js
+js/gentprep.js
 
 #jquery core
 http://code.jquery.com/jquery-1.9.1.min.js
@@ -16,7 +21,14 @@ http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js
 
 http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css
 
+http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.js
+
+http://cdn.jtsage.com/datebox/latest/jqm-datebox.core.min.js
+
+http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.calbox.min.js
 
 NETWORK:
+
+
 *
 
