@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="nicuinfusions.appcache">
+<html manifest="offline.appcache">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -32,7 +32,7 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
    
 	<link rel="stylesheet" href="css/infusion.css" media="screen" />
-	<link rel="stylesheet" href="css/infusionPrint.css" media="print"/>
+	<!--<link rel="stylesheet" href="css/infusionPrint.css" media="print"/>-->
 	<link rel="stylesheet" type="text/css" href="http://cdn.jtsage.com/datebox/latest/jqm-datebox.min.css" />
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -79,7 +79,7 @@
 					    <fieldset data-role="controlgroup" data-type="horizontal">
 					        <legend>Gestation at birth:</legend>
 					        <label for="weeks">Weeks</label>
-					        <select name="weeks" id="weeks" data-native-menu="false">
+					        <select name="weeks" id="weeks" >
 					            <option value="0">Weeks:</option>
 								<option value="22">22 weeks</option>
 					            <option value="23">23 weeks</option>
@@ -106,7 +106,7 @@
 								
 					        </select>
 					        <label for="plusDays">Two</label>
-					        <select name="plusDays" id="plusDays"data-native-menu="false">
+					        <select name="plusDays" id="plusDays">
 								 <option value="0">Days:</option>
 					            <option value="0">0 days</option>
 					            <option value="1">1 day</option>
@@ -288,7 +288,7 @@
             <h3 style="float: left; margin-top: 8px;">
                 <p>
                     <strong>Wellington NICU Gentamicin Calculator </strong><br>
-                    Version 1.01<br>
+                    Version 1.043<br>
                     <a href="mailto:michael.hewson@ccdhb.org.nz" data-role="button" data-icon="mail">Report a problem...</a>
             </h3>
             <p style="clear: both; font-size: 85%; margin-bottom: 8px;">
@@ -297,7 +297,7 @@
 					
 				
 				
-            <a href="" data-role="button" data-icon="arrow-u" data-rel="back" data-theme="a">Close</a>
+            <a href="#stepOne" data-role="button" data-icon="arrow-u" data-theme="a">Close</a>
         </div>
     </div>
     <!-- end #about -->
