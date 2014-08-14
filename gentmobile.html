@@ -34,6 +34,9 @@
 	<link rel="stylesheet" href="css/infusion.css" media="screen" />
 	<!--<link rel="stylesheet" href="css/infusionPrint.css" media="print"/>-->
 	<link rel="stylesheet" type="text/css" href="http://cdn.jtsage.com/datebox/latest/jqm-datebox.min.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
+	
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
@@ -42,7 +45,10 @@
 <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.calbox.min.js"></script>
  <script type="text/javascript" src="js/gentamicin.js"></script>
  <script type="text/javascript" src="js/gentprep.js"></script>
-
+ <script type="text/javascript" src="js/addtohomescreen.js"></script>
+ <script>
+ addToHomescreen();
+ </script>
  
 <HTML>
 <HEAD>
@@ -123,7 +129,7 @@
 			  <div class="ui-bar ui-bar-a" style="height:80px"><div class="ui-field-contain"class="errorProne">
 			    <label for="dob">DOB:</label>
 			   <input type="text" id="dob" required autocomplete="off"
-			   data-role="datebox" data-theme="a"  data-options='{"mode":"calbox","overrideDateFormat":"%d %b %Y","afterToday":false,"beforeToday":true,"maxDays": 1,"minDays":200 ,"enablePopup":true}'>
+			   data-role="datebox" data-theme="a"  data-options='{"mode":"calbox","overrideDateFormat":"%d %b %Y","afterToday":false,"beforeToday":true,"maxDays": 1,"minDays":200 ,"enablePopup":true,"useFocus":true}'>
 	</div></div>
 			    
 		
@@ -288,7 +294,7 @@
             <h3 style="float: left; margin-top: 8px;">
                 <p>
                     <strong>Wellington NICU Gentamicin Calculator </strong><br>
-                    Version 1.043<br>
+                    Version 1.05<br>
                     <a href="mailto:michael.hewson@ccdhb.org.nz" data-role="button" data-icon="mail">Report a problem...</a>
             </h3>
             <p style="clear: both; font-size: 85%; margin-bottom: 8px;">

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.043
+# version 1.05
 
 
 CACHE:
@@ -10,8 +10,10 @@ gentmobile.html
 
 
 css/infusion.css
+css/addtohomescreen.css
 js/gentamicin.js
 js/gentprep.js
+js/addtohomescreen.js
 
 #jquery core
 http://code.jquery.com/jquery-1.9.1.min.js
